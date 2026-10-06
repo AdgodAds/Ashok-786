@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ADGOD ADS</title>
+<title>786 APK – Online App</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 <!-- Meta Pixel Code -->
 <script>
@@ -18,235 +17,408 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1509482190986655');
+fbq('init', '1119835973791978');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1509482190986655&ev=PageView&noscript=1"
+src="https://www.facebook.com/tr?id=1119835973791978&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
 
-<!-- AUTO TELEGRAM REDIRECT -->
-<script>
-setTimeout(function(){
-window.location.href="https://t.me/+VJZN0ieuBhhiMmE1";
-},90000);
-</script>
-
 <style>
-
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
 }
 
 body{
-font-family:'Oxanium',sans-serif;
-min-height:100vh;
-background:url('https://i.imgur.com/0elxXMr.png') center/cover no-repeat;
-display:flex;
-align-items:center;
-justify-content:center;
-position:relative;
-overflow:hidden;
+  min-height:100vh;
+  background:#04061a;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+  color:#fff;
+  overflow:hidden;
 }
 
-body::before{
-content:"";
-position:absolute;
-inset:0;
-background:radial-gradient(circle at top, rgba(0,0,0,0.6), rgba(0,0,0,0.95));
-z-index:0;
-}
-
-@keyframes float{
-0%{transform:translateY(0px);}
-50%{transform:translateY(-8px);}
-100%{transform:translateY(0px);}
+#starCanvas{
+  position:fixed;
+  inset:0;
+  z-index:0;
 }
 
 .card{
-position:relative;
-z-index:2;
-backdrop-filter:blur(18px);
-background:rgba(255,255,255,0.06);
-border:1px solid rgba(255,215,0,0.3);
-border-radius:26px;
-padding:45px 30px;
-max-width:420px;
-width:95%;
-text-align:center;
-color:#fff;
-box-shadow:0 30px 80px rgba(0,0,0,0.9);
-animation:fadeUp 1s ease;
+  position:relative;
+  z-index:2;
+  width:100%;
+  max-width:420px;
+  background:linear-gradient(180deg,#121a4d,#0a1038);
+  border-radius:26px;
+  padding:26px 22px 22px;
+  box-shadow:0 25px 60px rgba(0,0,0,.6);
+  backdrop-filter:blur(6px);
+}
+
+.header{
+  display:flex;
+  gap:14px;
+  align-items:center;
+  margin-bottom:14px;
 }
 
 .logo{
-width:125px;
-height:125px;
-border-radius:50%;
-border:3px solid #FFD700;
-margin-bottom:20px;
-box-shadow:0 0 35px rgba(255,215,0,0.7);
-animation:float 3s ease-in-out infinite;
+  width:60px;
+  height:60px;
+  border-radius:16px;
+  background:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow:0 0 30px rgba(255,215,0,.7);
 }
 
-h1{
-font-size:25px;
-color:#FFD700;
-margin-bottom:8px;
-letter-spacing:1px;
+.logo img{
+  width:48px;
 }
 
-h2{
-font-size:18px;
-margin-bottom:15px;
+.header h1{
+  font-size:22px;
+  font-weight:800;
 }
 
-.sub{
-font-size:14px;
-opacity:0.9;
-margin-bottom:28px;
+.header span{
+  display:block;
+  font-size:12px;
+  font-weight:600;
+  color:#ffd84d;
 }
 
-.btn{
-display:inline-block;
-padding:17px 45px;
-border-radius:18px;
-background:linear-gradient(135deg,#00c6ff,#005bbb);
-color:#fff;
-font-weight:700;
-text-decoration:none;
-font-size:15px;
-transition:0.4s ease;
-box-shadow:0 15px 40px rgba(0,176,255,0.6);
-position:relative;
-overflow:hidden;
+.tagline{
+  font-size:15px;
+  font-weight:600;
+  margin:14px 0 18px;
 }
 
-.btn::before{
-content:"";
-position:absolute;
-top:0;
-left:-120%;
-width:120%;
-height:100%;
-background:linear-gradient(120deg,transparent,rgba(255,255,255,0.4),transparent);
-transition:0.6s;
+.features{
+  background:rgba(255,255,255,.06);
+  border-radius:18px;
+  padding:18px;
 }
 
-.btn:hover::before{
-left:120%;
+.features li{
+  list-style:none;
+  margin-bottom:10px;
+  font-size:14px;
+  display:flex;
+  gap:8px;
 }
 
-.btn:hover{
-transform:translateY(-5px);
-box-shadow:0 25px 60px rgba(0,176,255,1);
+.features li:last-child{
+  margin-bottom:0;
 }
 
-.badge{
-margin:25px 0;
-background:linear-gradient(135deg,#ffffff,#f3f3f3);
-color:#d60000;
-font-weight:700;
-padding:7px 16px;
-border-radius:8px;
-display:inline-block;
-font-size:13px;
-box-shadow:0 5px 20px rgba(0,0,0,0.4);
+.features li::before{
+  content:"✔";
+  color:#00ff9d;
 }
 
-.points{
-list-style:none;
-margin:20px 0;
-font-size:14px;
-font-family:'Poppins',sans-serif;
+.stats{
+  display:flex;
+  gap:12px;
+  margin:20px 0;
 }
 
-.points li{
-margin:9px 0;
+.stat{
+  flex:1;
+  background:rgba(255,255,255,.05);
+  border-radius:16px;
+  padding:14px;
+  text-align:center;
 }
 
-.ads-tag{
-margin-top:18px;
-font-size:13px;
-padding:8px 14px;
-border-radius:8px;
-background:rgba(255,255,255,0.08);
-border:1px solid rgba(255,255,255,0.2);
-font-family:'Poppins',sans-serif;
+.stat h2{
+  font-size:18px;
+  font-weight:800;
 }
 
-.ads-tag a{
-color:#00c6ff;
-font-weight:700;
-text-decoration:none;
+.stat p{
+  font-size:12px;
+  opacity:.8;
 }
 
-.risk{
-font-size:12px;
-opacity:0.75;
-margin-top:10px;
+.download a{
+  display:block;
+  text-align:center;
+  padding:18px;
+  background:linear-gradient(90deg,#00ff9d,#00d4ff);
+  color:#002018;
+  font-size:18px;
+  font-weight:800;
+  border-radius:40px;
+  text-decoration:none;
+  box-shadow:0 0 40px rgba(0,255,200,.9);
+  transition:.3s;
 }
 
-@keyframes fadeUp{
-from{
-opacity:0;
-transform:translateY(40px);
-}
-to{
-opacity:1;
-transform:translateY(0);
-}
+.download a:hover{
+  transform:scale(1.05);
 }
 
-@media(max-width:480px){
-h1{font-size:19px;}
-h2{font-size:16px;}
-.btn{padding:15px 30px;}
+.footer{
+  text-align:center;
+  font-size:12px;
+  opacity:.8;
+  margin-top:14px;
+  cursor:pointer;
+  text-decoration:underline;
 }
 
+/* SMALL TELEGRAM BUTTON */
+.ads-agency{
+  text-align:center;
+  margin-top:8px;
+}
+
+.telegram-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:4px;
+
+  padding:5px 11px;
+
+  background:#229ED9;
+  color:#fff;
+
+  text-decoration:none;
+  font-size:10px;
+  font-weight:600;
+
+  border-radius:20px;
+
+  box-shadow:0 2px 8px rgba(34,158,217,.25);
+
+  transition:.2s ease;
+}
+
+.telegram-btn:hover{
+  transform:translateY(-1px);
+  box-shadow:0 3px 10px rgba(34,158,217,.4);
+}
+
+.telegram-btn:active{
+  transform:scale(.96);
+}
+
+/* PRIVACY POPUP */
+#policy{
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.7);
+  z-index:10;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+}
+
+.policy-box{
+  background:#0b113d;
+  width:100%;
+  max-width:420px;
+  padding:22px;
+  border-radius:18px;
+  font-size:13px;
+  line-height:1.6;
+}
+
+.policy-box button{
+  margin-top:12px;
+  padding:10px 18px;
+  border:none;
+  border-radius:10px;
+  background:#00ff9d;
+  font-weight:700;
+  cursor:pointer;
+}
 </style>
 </head>
 
 <body>
 
+<canvas id="starCanvas"></canvas>
+
 <div class="card">
 
-<img src="https://i.postimg.cc/nLGN2Kk7/1790352809157.png" class="logo">
+  <div class="header">
 
-<h1>POWER TRADER</h1>
-<h2>🔥 DAILY MARKET UPDATES 🔥</h2>
+    <div class="logo">
+      <img src="https://res.cloudinary.com/jl5ylnoh/image/upload/f_auto,q_auto/aaaaaaaaaaaaaaaaannnnnnnn" alt="786 APK Logo">
+    </div>
 
-<p class="sub">
-NIFTY • BANKNIFTY • STOCK OPTIONS
-</p>
+    <div>
+      <h1>786 APK</h1>
+      <span>ENTERTAINMENT & EDUCATIONAL PLATFORM</span>
+    </div>
 
-<a href="https://t.me/+VJZN0ieuBhhiMmE1" class="btn" onclick="fbq('track','Lead')">
-🚀 Join Free Telegram Channel
-</a>
+  </div>
 
-<div class="badge">
-🇮🇳 India’s Trusted Stock Market Channel
+  <div class="tagline">
+    तेज़ भुगतान • सुरक्षित सिस्टम • रियल-टाइम अपडेट
+  </div>
+
+  <ul class="features">
+    <li>24×7 System Access</li>
+    <li>Fast Result Information</li>
+    <li>User Friendly Interface</li>
+    <li>ENTERTAINMENT</li>
+    <li>ENTERTAINMENT & EDUCATIONAL PLATFORM</li>
+  </ul>
+
+  <div class="stats">
+
+    <div class="stat">
+      <h2>100K+</h2>
+      <p>Active Users</p>
+    </div>
+
+    <div class="stat">
+      <h2>24×7</h2>
+      <p>Support</p>
+    </div>
+
+    <div class="stat">
+      <h2>4.9★</h2>
+      <p>User Rating</p>
+    </div>
+
+  </div>
+
+  <div class="download">
+    <a href="https://mtk786.shop/app-debug.apk"
+       onclick="fbq('track','Lead',{content_name:'786 APK'});">
+      ↓ DOWNLOAD NOW ↓
+    </a>
+  </div>
+
+  <div class="footer" onclick="openPolicy()">
+    Privacy Policy & Terms
+  </div>
+
+  <!-- SMALL ADGOD ADS TELEGRAM BUTTON -->
+  <div class="ads-agency">
+    <a
+      href="https://t.me/+Kj7je5rRGkgwM2Rl"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="telegram-btn">
+      ✈️ADS BY = ADGOD ADS
+    </a>
+  </div>
+
 </div>
 
-<ul class="points">
-<li>✔ Proper Stop Loss & Targets</li>
-<li>✔ Daily Market Upadtes Free</li>
-<li>✔ F&O Views for Study Purpose Only</li>
-</ul>
 
-<p class="risk">
-⚠️ Market Investments are subject to Market risks
-</p>
+<!-- PRIVACY POLICY POPUP -->
+<div id="policy" onclick="closePolicy()">
 
-<div class="ads-tag">
-🔥 Powered by 
-<a href="https://t.me/+Kj7je5rRGkgwM2Rl" target="_blank">ADGOD ADS</a>
+  <div class="policy-box" onclick="event.stopPropagation()">
+
+    <h3>🔐 Privacy Policy</h3>
+
+    <p>
+      **786 APK** एक online entertainment एवं educational information platform है।
+
+यहाँ उपलब्ध सभी content का उद्देश्य केवल **educational और informational purposes** के लिए है। हम किसी भी प्रकार की **real-money gambling, betting या wagering activity** को promote, encourage या facilitate नहीं करते।
+
+हम किसी भी प्रकार की **earning या financial return की guarantee** नहीं देते। Users को किसी भी financial decision से पहले स्वयं उचित जानकारी और सावधानी बरतने की सलाह दी जाती है।
+
+हम users की privacy को महत्व देते हैं और उपलब्ध जानकारी का उपयोग platform को बेहतर बनाने तथा user experience को support करने के लिए करते हैं। किसी भी व्यक्तिगत जानकारी को बिना उचित आवश्यकता के साझा करने से बचने का प्रयास किया जाता है।
+
+    </p>
+
+    <button onclick="closePolicy()">
+      Close
+    </button>
+
+  </div>
+
 </div>
 
-</div>
+
+<script>
+function openPolicy(){
+  document.getElementById("policy").style.display="flex";
+}
+
+function closePolicy(){
+  document.getElementById("policy").style.display="none";
+}
+
+
+/* STAR ANIMATION */
+
+const canvas = document.getElementById("starCanvas");
+const ctx = canvas.getContext("2d");
+
+let w,h,stars=[];
+
+function resize(){
+  w = canvas.width = window.innerWidth;
+  h = canvas.height = window.innerHeight;
+}
+
+resize();
+
+window.addEventListener("resize", resize);
+
+for(let i=0;i<120;i++){
+
+  stars.push({
+    x:Math.random()*w,
+    y:Math.random()*h,
+    r:Math.random()*1.5,
+    s:Math.random()*0.8+0.2
+  });
+
+}
+
+(function animate(){
+
+  ctx.clearRect(0,0,w,h);
+
+  ctx.fillStyle="rgba(255,255,255,0.8)";
+
+  stars.forEach(star=>{
+
+    ctx.beginPath();
+
+    ctx.arc(
+      star.x,
+      star.y,
+      star.r,
+      0,
+      Math.PI*2
+    );
+
+    ctx.fill();
+
+    star.y += star.s;
+
+    if(star.y > h){
+      star.y = 0;
+      star.x = Math.random()*w;
+    }
+
+  });
+
+  requestAnimationFrame(animate);
+
+})();
+</script>
 
 </body>
 </html>
